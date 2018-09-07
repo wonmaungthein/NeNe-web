@@ -22,7 +22,33 @@
   font-size: large;
 }
 
+.img-container {
+  /* border: 2px solid blue; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-content: center; */
+  height: 120em;
+  padding: 20px;
+  /* align-self: center; */
+}
+
+.img-discription {
+  /* border: 2px solid yellow; */
+  /* text-align: center; */
+}
+
+.App-footer {
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
